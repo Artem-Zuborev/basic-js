@@ -41,7 +41,7 @@ describe('Count cats!', () => {
         ['##', 'dd', '00'],
         ['^^', '..', 'ss'],
         ['AA', 'dd', 'Oo'],
-      ]), 1);
+      ]), 0);
     });
 
     it.optional('level 0.2', () => {
@@ -73,7 +73,7 @@ describe('Count cats!', () => {
     });
   });
 
-  describe('functional requirements', () => {   
+  describe('functional requirements', () => {
     it.optional('level 1', () => {
       assert.equal(countCats([
         ["^^", ".", null, 0, false, "", NaN, "^^", 2, true, "dasdas", 1],
@@ -85,7 +85,7 @@ describe('Count cats!', () => {
         [null, 1, NaN, true, ".", "^^", "^^", 2, "", false, "dasdas", 0],
         [null, NaN, "", false, ".", 1, 0, "^^", "dasdas", true, 2, "^^"],
       ]), 16);
-     });
+    });
 
     it.optional('level 2', () => {
       assert.equal(countCats([
