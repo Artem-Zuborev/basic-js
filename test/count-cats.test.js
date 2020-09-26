@@ -41,7 +41,7 @@ describe('Count cats!', () => {
         ['##', 'dd', '00'],
         ['^^', '..', 'ss'],
         ['AA', 'dd', 'Oo'],
-      ]), 0);
+      ]), 1);
     });
 
     it.optional('level 0.2', () => {
