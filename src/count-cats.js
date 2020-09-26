@@ -7,7 +7,7 @@ module.exports = function countCats(matrix) {
       if (matrix[i][j] === "^^") {
         number++
       } else {
-        return 0;
+        number;
       }
     }
   }
