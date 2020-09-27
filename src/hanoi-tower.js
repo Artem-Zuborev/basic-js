@@ -8,9 +8,9 @@ module.exports = function calculateHanoi(disksNumber, turnsSpeed) {
 };
 
 
-function findStep(num) {
-  if(num===1)return num;
-  return findStep(num-1)*2+1;
-}
-(((1)*2+1)*2+1)*2+1
+// function findStep(num) {
+//   if(num===1)return num;
+//   return findStep(num-1)*2+1;
+// }
+// (((1)*2+1)*2+1)*2+1
 
